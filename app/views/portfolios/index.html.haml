@@ -1,0 +1,42 @@
+.body
+  .title
+    Yusuke Yamada 
+    %br
+    portfolio
+  .header
+    .ul
+      =link_to 'Works', '/portfolios/works', class: :li
+      =link_to 'About', '/portfolios/about', class: :li
+    
+  %img{:src => "assets/top-image.jpg", class: "image1"}
+  .main-works
+    Works
+  .works
+    .work
+      .work__image
+        = link_to image_tag(src= "/assets/frima.jpg", class: "image2"), frema_portfolios_path
+      .work__title
+        メルカリのコピーサイト
+
+    .work
+      .work__image
+        = link_to image_tag(src= "/assets/famire.jpg", class: "image2"), famire_portfolios_path
+        
+      .work__title
+        FAMILY RECIPE （料理代行サービスのホームページ）
+  .works2
+    .work
+      .work__image
+        = link_to image_tag(src= "/assets/papa-chat.jpg", class: "image2"), papachat_portfolios_path
+      .work__title
+        PAPA-CHAT
+    .work
+      .work__image
+        = link_to image_tag(src= "/assets/chat-space.jpg", class: "image2"), chatspace_portfolios_path
+      .work__title
+        chat-space
+
+  .footer
+    .ful
+      =link_to 'Works', '/portfolios/works', class: :li
+      =link_to 'About', '/portfolios/about', class: :li

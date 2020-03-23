@@ -1,0 +1,94 @@
+.Aboutoverall{
+  padding: 20px 250px;
+}
+.About-title{
+  font:46px Lato, sans-serif;
+  margin: 40px 0 70px;
+  color:gray;
+
+}
+.about-main{
+
+  display: flex;
+  margin: 51px 30px;
+  &__image{
+    width: 160px;
+
+  }
+  &__contact{
+    margin-left:80px;
+    &__name{
+      display: flex;
+      list-style: none;
+      
+      &__title{
+        width: 130px;
+
+      }
+      &__contact{
+        
+
+      }
+    }
+
+    &__age{
+      display: flex;
+      list-style: none;
+      &__title{
+        width: 130px;
+
+      }
+      &__contact{
+
+      }
+    }
+
+    &__address{
+      display: flex;
+      list-style: none;
+      &__title{
+        width: 130px;
+
+      }
+      &__contact{
+
+      }
+    }
+    &__family{
+      display: flex;
+      list-style: none;
+      &__title{
+        width: 130px;
+
+      }
+      &__contact{
+
+      }
+    }
+    &__hobby{
+      display: flex;
+      list-style: none;
+      &__title{
+        width: 130px;
+
+      }
+      &__contact{
+
+      }
+    }
+    &__family{
+      display: flex;
+      list-style: none;
+      &__title{
+        width: 130px;
+
+      }
+      &__contact{
+
+      }
+    }
+  }
+}
+.footer{
+  margin-top: 130px;
+}

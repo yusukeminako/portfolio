@@ -1,3 +1,13 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root "portfolios#index"
+  resources :portfolios, only: [:index] do
+    collection do
+      get :about
+      get :frema
+      get :famire
+      get :papachat
+      get :chatspace
+      get :works
+    end
+  end
 end
