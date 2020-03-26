@@ -42,6 +42,18 @@
 
       }
     }
+    &__university{
+      display: flex;
+      list-style: none;
+      &__title{
+        width: 130px;
+
+      }
+      &__contact{
+
+      }
+    }
+    
 
     &__address{
       display: flex;

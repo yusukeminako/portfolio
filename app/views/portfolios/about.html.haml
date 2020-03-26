@@ -5,6 +5,7 @@
     portfolio
   .header
     .ul
+      %i.far.fa-hand-point-right.faa-horizontal.animated{style: "font-size: 45px;"}
       =link_to 'Top', '/', class: :li
       =link_to 'Works', '/portfolios/works', class: :li
       =link_to 'About', '/portfolios/about', class: :li
@@ -32,6 +33,11 @@
             Age
           %li.about-main__contact__age__contact
             31歳
+        %nl.about-main__contact__university
+          %li.about-main__contact__university__title
+            University
+          %li.about-main__contact__university__contact
+            福岡工業大学　情報工学部　情報通信工学科
         %nl.about-main__contact__address
           %li.about-main__contact__address__title
             Address
@@ -60,4 +66,5 @@
       =link_to 'Top', '/', class: :li
       =link_to 'Works', '/portfolios/works', class: :li
       =link_to 'About', '/portfolios/about', class: :li
+      %i.far.fa-hand-point-left.faa-horizontal.animated{style: "font-size: 45px;"}
       

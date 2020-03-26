@@ -5,10 +5,24 @@
     portfolio
   .header
     .ul
+      %i.far.fa-hand-point-right.faa-horizontal.animated{style: "font-size: 45px;"}
       =link_to 'Works', '/portfolios/works', class: :li
       =link_to 'About', '/portfolios/about', class: :li
     
   %img{:src => "assets/top-image.jpg", class: "image1"}
+  .main-works
+    Initiatives
+  .initiatives-main
+    前職でお世話になった外部のエンジニアに憧れを持ち、エンジニアを目指そうと思いました。
+    %br/
+    エンジニアになるために2019年12月から2020年2月まで
+    %br/
+    プログラミングスクールTECH::EXPERT（株式会社div）に通っておりました。
+    %br/
+    プログラミングスクールでの開発実績、そして卒業後の取り組み（現在進行中）をご紹介いたします。
+    %br/
+
+
   .main-works
     Works
   .works
@@ -40,3 +54,4 @@
     .ful
       =link_to 'Works', '/portfolios/works', class: :li
       =link_to 'About', '/portfolios/about', class: :li
+      %i.far.fa-hand-point-left.faa-horizontal.animated{style: "font-size: 45px;"}
