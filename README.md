@@ -15,6 +15,6 @@ https://portfolio-yamadayusuke.herokuapp.com/
 ・About<br>
 
 ## 使用言語、技術
-|プログラミング言語|フレームワーク|マークアップ言語|メタ言語|
-|:--:|:--:|:--:|:--:|
-|Ruby|Ruby on Rails|Ham|Sass|
+|プログラミング言語|フレームワーク|マークアップ言語|メタ言語|プラットフォーム|
+|:--:|:--:|:--:|:--:|:--:|
+|Ruby|Ruby on Rails|Ham|Sass|Heroku|
