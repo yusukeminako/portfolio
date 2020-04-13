@@ -7,6 +7,10 @@
   color:gray;
 
 }
+#p{
+  font-size: 15px;
+  letter-spacing: 0.1em;//文字の間隔
+}
 .about-main{
 
   display: flex;
@@ -17,6 +21,7 @@
   }
   &__contact{
     margin-left:80px;
+    font-size: 15px;
     &__name{
       display: flex;
       list-style: none;
@@ -103,4 +108,37 @@
 }
 .footer{
   margin-top: 130px;
+}
+
+
+
+
+.image {
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 375px;
+  position: relative;
+  background-color: #fafafa;
+}
+
+.image__main__photo {
+  width: 100%;
+  vertical-align: bottom;
+}
+.image__sub {
+  line-height: 0;
+}
+.image__sub__thumb {
+  display: block;
+  float: left;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.image__sub__thumb__photo {
+  padding: 0;
+  margin: 0；
+}
+.image__sub__thumb:not(.active) {//:not(.active)はactiveが付与されていない
+  opacity: 0.4;//透明度
 }
