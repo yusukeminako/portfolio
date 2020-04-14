@@ -5,16 +5,19 @@
   font:46px Lato, sans-serif;
   margin: 40px 0 70px;
   color:gray;
+  text-align: center;
 
 }
 #p{
   font-size: 15px;
   letter-spacing: 0.1em;//文字の間隔
+  text-align: center;
+  
 }
 .about-main{
 
   display: flex;
-  margin: 51px 30px;
+  margin: 60px 144px;
   &__image{
     width: 160px;
 
@@ -22,6 +25,7 @@
   &__contact{
     margin-left:80px;
     font-size: 15px;
+    margin-top: 20px;
     &__name{
       display: flex;
       list-style: none;
@@ -97,7 +101,6 @@
 .image {
   min-width: 300px;
   max-width: 300px;
-  min-height: 375px;
   position: relative;
   background-color: #fafafa;
 }
