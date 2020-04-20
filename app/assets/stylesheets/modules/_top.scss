@@ -91,34 +91,6 @@
   font-weight: 100;
   letter-spacing: 4px;
   font-size: 20px;
-  
-  &__boxs{
-    display: flex;
-    margin: 60px 144px;
-    font-size: 15px;
-    &__box{
-      width: calc(100%/2);
-      padding: 0 60px;
-      &__title{
-        text-align: center;
-        font-size: 20px;
-       
-
-      }
-      &__image{
-        padding: 28px 171px;
-        line-height: center;
-      }
-      &__contact{
-    
-      }
-    }
-    
-  
-
-  }
-
-  
 }
 .fa-laptop{
   font-size: 70px;
@@ -130,3 +102,28 @@
 }
 
 
+
+
+
+// JS
+.tooltip {
+  list-style: none;//・消す
+  display: flex;
+  font-size: 20px;
+  margin: 50px 250px;
+  
+
+}
+.tooltip li {
+  width: calc(100vw/3);
+  text-align: center;
+  
+}
+.tooltip a {
+  
+}
+.tooltip li span {
+  display: none;
+  font-size: 18px;
+  color: gray;
+}
