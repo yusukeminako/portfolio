@@ -87,10 +87,11 @@
   opacity: .6;
 }
 .initiatives-main{
-  margin: 0px 127px;
+  margin: 0px 284px;
   font-weight: 100;
   letter-spacing: 4px;
   font-size: 17px;
+  text-align: center;
 }
 .fa-laptop{
   font-size: 70px;
@@ -99,6 +100,34 @@
 .fa-book{
   font-size: 70px;
   width: 426px
+}
+.technolog{
+  font:50px Lato, sans-serif;
+  color:gray;
+  margin-bottom: 50px;
+  font-weight: 100;
+  text-align: center;
+  margin-top:130px;
+}
+.initiatives-details{
+  display: flex;
+    margin: 80px 80px;
+    justify-content: center;
+}
+.html{
+  margin: 10px 25px;
+  width: calc(100vw/3);
+  &__title{
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+    
+
+  }
+  &__content{
+    margin-top: 20px;
+
+  }
 }
 
 
