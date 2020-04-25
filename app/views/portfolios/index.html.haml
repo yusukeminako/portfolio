@@ -9,10 +9,16 @@
           %a{:href => "/portfolios/works"} Works
         %li.submenu__item
           %a{:href => "/portfolios/about"} about
+  %i.fa.fa-chevron-circle-up{"aria-hidden" => "true", style: "font-size: 60px;"}
   .title
     Yusuke Yamada 
     %br
     portfolio
+  .header
+    .ul
+      =link_to 'Top', '/', class: :li
+      =link_to 'Works', '/portfolios/works', class: :li
+      =link_to 'About', '/portfolios/about', class: :li
     
 %img{:src => "assets/top-image.jpg", class: "image1"}
   .main-works

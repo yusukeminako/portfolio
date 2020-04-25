@@ -4,3 +4,15 @@ $(function(){
       $(this).next("span").animate({opacity: "hide", top: "-85"}, "fast");
     });
 });
+
+
+// topに戻る
+
+$(function(){
+  $('.fa-chevron-circle-up').click(function () {
+    $('body,html').animate({
+      scrollTop: 0
+    });
+    return false;
+  });
+});
