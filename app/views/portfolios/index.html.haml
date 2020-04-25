@@ -3,13 +3,24 @@
     Yusuke Yamada 
     %br
     portfolio
-  .header
-    .ul
-      %i.far.fa-hand-point-right.faa-horizontal.animated{style: "font-size: 45px;"}
-      =link_to 'Works', '/portfolios/works', class: :li
-      =link_to 'About', '/portfolios/about', class: :li
+  %ul.menu
+    %li.menu__item
+      -# %a.menu__item__link.js-menu__item__link{:href => ""}
+      %i.fas.fa-bars{style: "font-size: 60px;"}
+      -# %i.fas.fa-bars{style: "font-size: 45px;"}
+      %ul.submenu
+        %li.submenu__item
+          %a{:href => "/portfolios/works"} Works
+        %li.submenu__item
+          %a{:href => "/portfolios/about"} about
+          
+
+    -# .ul
+    -#   %i.far.fa-hand-point-right.faa-horizontal.animated{style: "font-size: 45px;"}
+    -#   =link_to 'Works', '/portfolios/works', class: :li
+    -#   =link_to 'About', '/portfolios/about', class: :li
     
-  %img{:src => "assets/top-image.jpg", class: "image1"}
+%img{:src => "assets/top-image.jpg", class: "image1"}
   .main-works
     Initiatives
   .initiatives-main
