@@ -1,8 +1,4 @@
 .body
-  .title
-    Yusuke Yamada 
-    %br
-    portfolio
   %ul.menu
     %li.menu__item
       -# %a.menu__item__link.js-menu__item__link{:href => ""}
@@ -13,12 +9,10 @@
           %a{:href => "/portfolios/works"} Works
         %li.submenu__item
           %a{:href => "/portfolios/about"} about
-          
-
-    -# .ul
-    -#   %i.far.fa-hand-point-right.faa-horizontal.animated{style: "font-size: 45px;"}
-    -#   =link_to 'Works', '/portfolios/works', class: :li
-    -#   =link_to 'About', '/portfolios/about', class: :li
+  .title
+    Yusuke Yamada 
+    %br
+    portfolio
     
 %img{:src => "assets/top-image.jpg", class: "image1"}
   .main-works
@@ -143,10 +137,3 @@
         = link_to image_tag(src= "/assets/chat-space.jpg", class: "image2"), chatspace_portfolios_path
       .work__title
         chat-space
-
-  .footer
-    .ful
-      =link_to 'Works', '/portfolios/works', class: :li
-      =link_to 'About', '/portfolios/about', class: :li
-      %i.far.fa-hand-point-left.faa-horizontal.animated{style: "font-size: 45px;"}
-

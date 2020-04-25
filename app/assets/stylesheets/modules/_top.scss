@@ -3,8 +3,7 @@
 }
 .body{
   padding: 20px 100px;
-  display: flex;
-  justify-content: space-between;
+  
 }
 .title{
   font:40px Lato, sans-serif;
@@ -145,16 +144,18 @@
 }
  
 .submenu {
-  background: #fff;
+  background: black;
   display: none;
   margin: 10px 10px;
   text-align: center;
-  // background-color:rgba(0,0,0,0);
-  // z-index: 1;
 }
 .menu{
   margin: 10px 10px;
   text-align: center;
+  position: fixed;
+  left: 90%;
+  z-index: 1;
+
 }
 .submenu__item {
   border-bottom: 1px solid;
@@ -164,6 +165,7 @@
 }
 .submenu__item a{
   text-decoration: none;
+  color: white;
 }
 
 .fa-bars{
