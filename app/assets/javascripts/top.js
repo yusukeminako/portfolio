@@ -6,7 +6,7 @@ $(function(){
 });
 
 
-// topに戻る
+// topスクロール
 
 $(function(){
   $('.fa-chevron-circle-up').click(function () {
@@ -15,4 +15,19 @@ $(function(){
     });
     return false;
   });
+  var position = $(".main-works").offset().top;
+  $('.icon-scroll').click(function () {
+    $('body,html').animate({
+      scrollTop: position 
+    });
+    return false;
+  });
+  var position2 = $(".technolog").offset().top;
+  $('.icon-scroll2').click(function () {
+    $('body,html').animate({
+      scrollTop: position2 
+    });
+    return false;
+  });
+  
 });
