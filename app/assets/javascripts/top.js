@@ -18,10 +18,10 @@ $(function(){
 });
 
 $(function(){
-  var position = $(".main-works").offset().top;
+  // var position = $(".main-works").offset().top;
   $('.icon-scroll').click(function () {
     $('body,html').animate({
-      scrollTop: position
+      scrollTop: 1100
       
     });
     return false;
@@ -29,10 +29,10 @@ $(function(){
 });
 
 $(function(){
-  var tech = $(".technolog").offset().top;
+  // var tech = $(".technolog").offset().top;
   $('.icon-scroll2').click(function () {
     $('body,html').animate({
-      scrollTop: tech 
+      scrollTop: 2400
     });
     return false;
   });  
