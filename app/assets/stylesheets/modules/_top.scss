@@ -203,3 +203,64 @@
   font-size: 18px;
   color: gray;
 }
+@media (max-width: 600px){
+  
+  .initiatives-main {
+    font-weight: 100;
+    font-size: 18px;
+    margin: 0 20px;
+  }
+  .title {
+    font: 28px Lato, sans-serif;
+  }
+  .initiatives-details {
+    margin: 80px 30px;
+    display: block;
+  }
+  .html {
+    margin: 10px 25px 30px;
+    font-size: 18px;
+    display: contents;
+    &__title{
+      font-weight: bold;
+      text-align: center;
+      color: gray;
+      margin-top: 20px;
+    }
+  }
+  .technolog-box{
+    margin: 10px 10px;
+  }
+    .tooltip {
+      list-style: none;
+      display: flex;
+      font-size: 25px;
+      margin: 0;
+      display: block;
+  }
+  .tooltip li {
+    text-align: center;
+    width:100%;
+  }
+  .works {
+    width: 100%;
+    height: auto;
+    padding: 0 50px;
+    margin-bottom: 60px;
+    display: block;
+  }
+  .work {
+    width: 100%;
+    padding: 0;
+
+  } 
+  .works2 {
+    width: 100%;
+    height: auto;
+    padding: 0 50px;
+    margin-bottom: 60px;
+    display: block;
+  }
+
+
+}
