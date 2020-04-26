@@ -3,97 +3,89 @@
     Yusuke Yamada 
     %br
     portfolio
-  .header
-    .ul
-      %i.far.fa-hand-point-right.faa-horizontal.animated{style: "font-size: 45px;"}
-      =link_to 'Top', '/', class: :li
-      =link_to 'Works', '/portfolios/works', class: :li
-      =link_to 'About', '/portfolios/about', class: :li
-    #h2.About-title
-      About
-    #p
-      2019年12から2020年2月までプログラミングスクールTECH::EXPERTに通っておりました。
-      %br/
-      %br/
-      プログラミング言語は Ruby で Ruby on Rails のフレームワーク、
-      %br/
-      %br/
-      javascript,jQuery,Haml,Sass等の技術を使って
-      %br/
-      %br/
-      アプリケーションの開発を行いました。
-      %br/
-      %br/
-      現在は、JavascriptやJAVA等の勉強をしております。
-      %br/
-      %br/
-      プログラミングの勉強は楽しく、学び続けて行きたいです！
-    
-    .about-main
-      -# %img{:src => "../assets/about.jpg", class: "about-main__image"}
+  %ul.menu
+    %li.menu__item
+      %i.fas.fa-bars{style: "font-size: 60px;"}
+      %ul.submenu
+        %li.submenu__item
+          %a{:href => "/portfolios"} Top
+        %li.submenu__item
+          %a{:href => "/portfolios/works"} Works
+#h2.About-title
+  About
+#p
+  2019年12から2020年2月までプログラミングスクールTECH::EXPERTに通っておりました。
+  %br/
+  %br/
+  プログラミング言語は Ruby で Ruby on Rails のフレームワーク、
+  %br/
+  %br/
+  javascript,jQuery,Haml,Sass等の技術を使って
+  %br/
+  %br/
+  アプリケーションの開発を行いました。
+  %br/
+  %br/
+  現在は、JavascriptやJAVA等の勉強をしております。
+  %br/
+  %br/
+  プログラミングの勉強は楽しく、学び続けて行きたいです！
 
-      .image
-        .image__main
-          %img.image__main__photo{:alt => "main", :height => "300", :src => "../assets/about.jpg", :width => "300"}/
-        .image__sub
-          .image__sub__thumb
-            %img.image__sub__thumb__photo{:alt => "sub", :height => "60", :src => "../assets/about.jpg", :width => "60"}/
-          .image__sub__thumb
-            %img.image__sub__thumb__photo{:alt => "sub", :height => "60", :src => "../assets/mac-air.jpg", :width => "60"}/
-          .image__sub__thumb
-            %img.image__sub__thumb__photo{:alt => "sub", :height => "60", :src => "../assets/3family.jpg", :width => "60"}/
-          .image__sub__thumb
-            %img.image__sub__thumb__photo{:alt => "sub", :height => "60", :src => "../assets/rio.jpg", :width => "60"}/
-          .image__sub__thumb
-            %img.image__sub__thumb__photo{:alt => "sub", :height => "60", :src => "../assets/anpanman.jpg", :width => "60"}/
-          
-      .about-main__contact
-        %nl.about-main__contact__name
-          %li.about-main__contact__name__title
-            Name
-          %li.about-main__contact__name__contact
-            山田　裕介
-        %br/
-        %nl.about-main__contact__age
-          %li.about-main__contact__age__title
-            Age
-          %li.about-main__contact__age__contact
-            31歳
-        %br/
-        %nl.about-main__contact__university
-          %li.about-main__contact__university__title
-            University
-          %li.about-main__contact__university__contact
-            福岡工業大学　情報工学部　情報通信工学科
-        %br/
-        %nl.about-main__contact__address
-          %li.about-main__contact__address__title
-            Address
-          %li.about-main__contact__address__contact
-            福岡県大野城市内
-        %br/
-        %nl.about-main__contact__family
-          %li.about-main__contact__family__title
-            Family
-          %li.about-main__contact__family__contact
-            妻、長女（3歳）、長男（1歳）
-        %br/
-        %nl.about-main__contact__hobby
-          %li.about-main__contact__hobby__title
-            Hobby
-          %li.about-main__contact__hobby__contact
-            プログラミング
-    
+.about-main
+  -# %img{:src => "../assets/about.jpg", class: "about-main__image"}
 
-          
-
-
-
-    .footer
-    .ful
-      .fli
-        =link_to 'Top', '/', class: :li
-        =link_to 'Works', '/portfolios/works', class: :li
-        =link_to 'About', '/portfolios/about', class: :li
-        %i.far.fa-hand-point-left.faa-horizontal.animated{style: "font-size: 45px;"}
-        
+  .image
+    .image__main
+      %img.image__main__photo{:alt => "main", :height => "300", :src => "../assets/about.jpg", :width => "300"}/
+    .image__sub
+      .image__sub__thumb
+        %img.image__sub__thumb__photo{:alt => "sub", :height => "60", :src => "../assets/about.jpg", :width => "60"}/
+      .image__sub__thumb
+        %img.image__sub__thumb__photo{:alt => "sub", :height => "60", :src => "../assets/mac-air.jpg", :width => "60"}/
+      .image__sub__thumb
+        %img.image__sub__thumb__photo{:alt => "sub", :height => "60", :src => "../assets/3family.jpg", :width => "60"}/
+      .image__sub__thumb
+        %img.image__sub__thumb__photo{:alt => "sub", :height => "60", :src => "../assets/rio.jpg", :width => "60"}/
+      .image__sub__thumb
+        %img.image__sub__thumb__photo{:alt => "sub", :height => "60", :src => "../assets/anpanman.jpg", :width => "60"}/
+      
+  .about-main__contact
+    %nl.about-main__contact__name
+      %li.about-main__contact__name__title
+        Name
+      %li.about-main__contact__name__contact
+        山田　裕介
+    %br/
+    %nl.about-main__contact__age
+      %li.about-main__contact__age__title
+        Age
+      %li.about-main__contact__age__contact
+        31歳
+    %br/
+    %nl.about-main__contact__university
+      %li.about-main__contact__university__title
+        University
+      %li.about-main__contact__university__contact
+        福岡工業大学　情報工学部　情報通信工学科
+    %br/
+    %nl.about-main__contact__address
+      %li.about-main__contact__address__title
+        Address
+      %li.about-main__contact__address__contact
+        福岡県大野城市内
+    %br/
+    %nl.about-main__contact__family
+      %li.about-main__contact__family__title
+        Family
+      %li.about-main__contact__family__contact
+        妻、長女（3歳）、長男（1歳）
+    %br/
+    %nl.about-main__contact__hobby
+      %li.about-main__contact__hobby__title
+        Hobby
+      %li.about-main__contact__hobby__contact
+        プログラミング
+.footer
+  .wrapper
+    %p
+      %small yusuke yamadda portfolio

@@ -14,20 +14,26 @@ $(function(){
       scrollTop: 0
     });
     return false;
-  });
+  }); 
+});
+
+$(function(){
   var position = $(".main-works").offset().top;
   $('.icon-scroll').click(function () {
     $('body,html').animate({
-      scrollTop: position 
+      scrollTop: position
+      
     });
     return false;
   });
-  var position2 = $(".technolog").offset().top;
+});
+
+$(function(){
+  var tech = $(".technolog").offset().top;
   $('.icon-scroll2').click(function () {
     $('body,html').animate({
-      scrollTop: position2 
+      scrollTop: tech 
     });
     return false;
-  });
-  
+  });  
 });

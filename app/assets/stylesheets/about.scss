@@ -1,5 +1,7 @@
 .Aboutoverall{
   padding: 20px 250px;
+  display: flex;
+  justify-content: space-between;
 }
 .About-title{
   font:46px Lato, sans-serif;
@@ -17,7 +19,7 @@
 .about-main{
 
   display: flex;
-  margin: 60px 144px;
+  margin: 70px 340px;
   &__image{
     width: 160px;
 
@@ -91,9 +93,6 @@
     }
   }
 }
-.footer{
-  margin-top: 130px;
-}
 
 
 
@@ -126,3 +125,12 @@
 .image__sub__thumb:not(.active) {//:not(.active)はactiveが付与されていない
   opacity: 0.4;//透明度
 }
+.footer{
+  background: #432;
+  text-align: center;
+  padding: 26px 0;
+  bottom: 0;
+  color: white;
+
+}
+

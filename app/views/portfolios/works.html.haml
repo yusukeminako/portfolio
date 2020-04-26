@@ -3,41 +3,41 @@
     Yusuke Yamada 
     %br
     portfolio
-  .header
-    .ul
-      %i.far.fa-hand-point-right.faa-horizontal.animated{style: "font-size: 45px;"}
-      =link_to 'Top', '/', class: :li
-      =link_to 'Works', '/portfolios/works', class: :li
-      =link_to 'About', '/portfolios/about', class: :li
-    #h2.About-title
-      Works
-      .works
-        .work
-          .work__image
-            = link_to image_tag(src= "/assets/frima.jpg", class: "image2"), frema_portfolios_path
-          .work__title2
-            フリマアプリ
+  %ul.menu
+    %li.menu__item
+      %i.fas.fa-bars{style: "font-size: 60px;"}
+      %ul.submenu
+        %li.submenu__item
+          %a{:href => "/portfolios"} Top
+        %li.submenu__item
+          %a{:href => "/portfolios/about"} about
+#h2.About-title
+  Works
+.works
+  .work
+    .work__image
+      = link_to image_tag(src= "/assets/frima.jpg", class: "image2"), frema_portfolios_path
+    .work__title2
+      フリマアプリ
 
-        .work
-          .work__image
-            = link_to image_tag(src= "/assets/famire.jpg", class: "image2"), famire_portfolios_path
-            
-          .work__title2
-            FAMILY RECIPE （料理代行サービスのホームページ）
-      .works2
-        .work
-          .work__image
-            = link_to image_tag(src= "/assets/papa-chat.jpg", class: "image2"), papachat_portfolios_path
-          .work__title2
-            PAPA-CHAT
-        .work
-          .work__image
-            = link_to image_tag(src= "/assets/chat-space.jpg", class: "image2"), chatspace_portfolios_path
-          .work__title2
-            chat-space
-  .footer
-    .ful
-      =link_to 'Top', '/', class: :li
-      =link_to 'Works', '/portfolios/works', class: :li
-      =link_to 'About', '/portfolios/about', class: :li
-      %i.far.fa-hand-point-left.faa-horizontal.animated{style: "font-size: 45px;"}
+  .work
+    .work__image
+      = link_to image_tag(src= "/assets/famire.jpg", class: "image2"), famire_portfolios_path
+      
+    .work__title2
+      FAMILY RECIPE （料理代行サービスのホームページ）
+.works2
+  .work
+    .work__image
+      = link_to image_tag(src= "/assets/papa-chat.jpg", class: "image2"), papachat_portfolios_path
+    .work__title2
+      PAPA-CHAT
+  .work
+    .work__image
+      = link_to image_tag(src= "/assets/chat-space.jpg", class: "image2"), chatspace_portfolios_path
+    .work__title2
+      chat-space
+.footer
+  .wrapper
+    %p
+      %small yusuke yamadda portfolio
