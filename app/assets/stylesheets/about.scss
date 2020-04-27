@@ -12,29 +12,29 @@
 }
 #p{
   font-size: 15px;
-  letter-spacing: 0.1em;//文字の間隔
-  text-align: center;
-  
+  margin: 10px 400px;
 }
 .about-main{
 
   display: flex;
-  margin: 70px 340px;
+  margin: 70px 395px;
   &__image{
     width: 160px;
 
   }
   &__contact{
-    margin-left:80px;
-    font-size: 15px;
-    margin-top: 20px;
+    margin: 10px 20px;
     &__name{
       display: flex;
       list-style: none;
       
       &__title{
         width: 130px;
+        font-size: 15px;
 
+      }
+      &__contact{
+        font-size: 15px;
       }
    
     }
@@ -44,7 +44,11 @@
       list-style: none;
       &__title{
         width: 130px;
+        font-size: 15px;
 
+      }
+      &__contact{
+        font-size: 15px;
       }
 
     }
@@ -53,7 +57,11 @@
       list-style: none;
       &__title{
         width: 130px;
+        font-size: 15px;
 
+      }
+      &__contact{
+        font-size: 15px;
       }
     }
     
@@ -63,7 +71,11 @@
       list-style: none;
       &__title{
         width: 130px;
+        font-size: 15px;
 
+      }
+      &__contact{
+        font-size: 15px;
       }
   
     }
@@ -72,7 +84,12 @@
       list-style: none;
       &__title{
         width: 130px;
+        font-size: 15px;
 
+
+      }
+      &__contact{
+        font-size: 15px;
       }
     }
     &__hobby{
@@ -80,7 +97,11 @@
       list-style: none;
       &__title{
         width: 130px;
+        font-size: 15px;
 
+      }
+      &__contact{
+        font-size: 15px;
       }
     }
     &__family{
@@ -88,7 +109,11 @@
       list-style: none;
       &__title{
         width: 130px;
+        font-size: 15px;
 
+      }
+      &__contact{
+        font-size: 15px;
       }
     }
   }
@@ -134,3 +159,20 @@
 
 }
 
+@media (max-width: 600px){
+  #p {
+    margin: 10px 25px;
+  }
+  .about-main {
+    margin: 70px 10px;
+    display: block;
+  }
+  .about-main__contact {
+    margin: 85px 40px;
+  }
+
+  .image {
+      margin: 0 100px;
+  }
+  
+}
