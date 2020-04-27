@@ -201,6 +201,10 @@
   display: none;
   font-size: 18px;
   color: gray;
+
+}
+.fa-chevron-circle-up{
+  margin-left: 68px;
 }
 @media (max-width: 600px){
   
@@ -260,6 +264,17 @@
     margin-bottom: 60px;
     display: block;
   }
+  .work__image .image2 {
+    height: 310px;
+}
+
+
+.work__title {
+  font-size: 17px;
+}
+.fa-chevron-circle-up{
+  margin-left: -38px;
+}
 
 
 }
