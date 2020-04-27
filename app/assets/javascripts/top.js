@@ -17,23 +17,22 @@ $(function(){
   }); 
 });
 
-$(function(){
-  // var position = $(".main-works").offset().top;
+//jQueryのoffsetで表示位置の取得と要素の移動
+$(window).load(function(){
+  //(window).loadで最初に画像を読み込ませる、画像を先に読み込まないと正確な位置を取得できないことがあるので
+  var position = $(".main-works").offset().top;
   $('.icon-scroll').click(function () {
     $('body,html').animate({
-      scrollTop: 1100
-      
+      scrollTop: position
     });
     return false;
   });
-});
-
-$(function(){
-  // var tech = $(".technolog").offset().top;
+  var tech = $(".technolog").offset().top;
   $('.icon-scroll2').click(function () {
     $('body,html').animate({
-      scrollTop: 2400
+      scrollTop: tech
     });
     return false;
   });  
+
 });
