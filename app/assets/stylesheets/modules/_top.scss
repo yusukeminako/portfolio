@@ -65,7 +65,9 @@
    }
 
 
+
   }
+
   &__title{
     background-color: lightness($color: #000000);
 
@@ -87,6 +89,8 @@
 
 .image2:hover {
   opacity: .6;
+  transform: translateY(-10px);
+
 }
 .initiatives-main{
   margin: 5px 490px;
