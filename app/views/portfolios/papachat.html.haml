@@ -3,47 +3,51 @@
     Yusuke Yamada 
     %br
     portfolio
-  .header
-    .ul
-      =link_to 'Top', '/', class: :li
-      =link_to 'Works', '/portfolios/works', class: :li
-      =link_to 'About', '/portfolios/about', class: :li
-    #h2.About-title
-      PAPA-CHAT
-    %img{:src => "../assets/papa-chat.jpg", class: "frema-image"}
-    %table
-      %tr
-        %th
-          アプリ詳細
-        %td
-          パパの子育て意見交換ができることをイメージしたチャットサイトである。
-          %br
-          deviseを使ってログイン機能を実装。
-          %br/
-          チャットとユーザー検索機能はAjaxで実装をしている。
-      %tr
-        %th
-          URL
-        %td
-          =link_to 'https://papachat.herokuapp.com/', 'https://papachat.herokuapp.com/'
-      %tr
-        %th
-          githhub-URL
-        %td
-          =link_to 'https://github.com/yusukeminako/chate-app', 'https://github.com/yusukeminako/chate-app'
-      %tr
-        %th
-          使用技術
-        %td
-          Ruby , Ruby on Rauls , Javascript , jquery , haml , sass , Heroku , github
+  %ul.menu
+    %li.menu__item
+      %i.fas.fa-bars{style: "font-size: 60px;"}
+      %ul.submenu
+        %li.submenu__item
+          %a{:href => "/portfolios"} Top
+        %li.submenu__item
+          %a{:href => "/portfolios/works"} Works
+        %li.submenu__item
+          %a{:href => "/portfolios/about"} about
+%i.fa.fa-chevron-circle-up{"aria-hidden" => "true", style: "font-size: 60px;"}
+#h2.About-title
+  PAPA-CHAT
+  %img{:src => "../assets/papa-chat.jpg", class: "frema-image"}
+  %table
+    %tr
+      %th
+        アプリ詳細
+      %td
+        パパの子育て意見交換ができることをイメージしたチャットサイトである。
+        %br
+        deviseを使ってログイン機能を実装。
+        %br/
+        チャットとユーザー検索機能はAjaxで実装をしている。
+    %tr
+      %th
+        URL
+      %td
+        =link_to 'https://papachat.herokuapp.com/', 'https://papachat.herokuapp.com/'
+    %tr
+      %th
+        githhub-URL
+      %td
+        =link_to 'https://github.com/yusukeminako/chate-app', 'https://github.com/yusukeminako/chate-app'
+    %tr
+      %th
+        使用技術
+      %td
+        Ruby , Ruby on Rauls , Javascript , jquery , haml , sass , Heroku , github
       
-
+.footer
+  .wrapper
+    %p
+      %small yusuke yamadda portfolio
         
       
 
-  .footer
-  .ful
-    .fli
-      =link_to 'Top', '/', class: :li
-      =link_to 'Works', '/portfolios/works', class: :li
-      =link_to 'About', '/portfolios/about', class: :li
+  

@@ -6,4 +6,14 @@
 .work__title2{
   font-size: 19px;
 }
-
+@media (max-width: 600px){
+  .About-title {
+    margin: 10px 10px;
+  }
+  table th{
+    font-size: 13px;
+  }
+  table td{
+    font-size: 11px;
+  }
+}

@@ -3,62 +3,66 @@
     Yusuke Yamada 
     %br
     portfolio
-  .header
-    .ul
-      =link_to 'Top', '/', class: :li
-      =link_to 'Works', '/portfolios/works', class: :li
-      =link_to 'About', '/portfolios/about', class: :li
-    #h2.About-title
-      フリマアプリ
-    %img{:src => "../assets/frima.jpg", class: "frema-image"}
-    %table
-      %tr
-        %th
-          アプリ詳細
-        %td
-          メルカリのコピーサイトでフリマアプリを開発。
-          %br/
-          スクラムマスターとしてメンバーのタスク選定、進捗の管理を行った。
-          %br/
-          DB設計、マイページ、クレジットカード登録、購入部分を担当。クレジットカード部分はPAY.JPというgemで実装。
-      %tr
-        %th
-          URL
-        %td
-          =link_to 'http://54.92.108.193 ', 'http://54.92.108.193 '
-      %tr
-        %th
-          購入者メールアドレス
-        %td
-          buyer@gmail.com
-      %tr
-        %th
-          購入者パスワード
-        %td
-          1234567
-      %tr
-        %th
-          出品者メールアドレス
-        %td
-          seller@gmail.com
-      %tr
-        %th
-          出品者パスワード
-        %td
-          1234567
-      %tr
-        %th
-          githhub-URL
-        %td
-          =link_to 'https://github.com/yusukeminako/freemarket_sample_67a ', 'https://github.com/yusukeminako/freemarket_sample_67a '
+  %ul.menu
+    %li.menu__item
+      %i.fas.fa-bars{style: "font-size: 60px;"}
+      %ul.submenu
+        %li.submenu__item
+          %a{:href => "/portfolios"} Top
+        %li.submenu__item
+          %a{:href => "/portfolios/works"} Works
+        %li.submenu__item
+          %a{:href => "/portfolios/about"} about
+%i.fa.fa-chevron-circle-up{"aria-hidden" => "true", style: "font-size: 60px;"}
+#h2.About-title
+  フリマアプリ
+  %img{:src => "../assets/frima.jpg", class: "frema-image"}
+  %table
+    %tr
+      %th
+        アプリ詳細
+      %td
+        メルカリのコピーサイトでフリマアプリを開発。
+        %br/
+        スクラムマスターとしてメンバーのタスク選定、進捗の管理を行った。
+        %br/
+        DB設計、マイページ、クレジットカード登録、購入部分を担当。クレジットカード部分はPAY.JPというgemで実装。
+    %tr
+      %th
+        URL
+      %td
+        =link_to 'http://54.92.108.193 ', 'http://54.92.108.193 '
+    %tr
+      %th
+        購入者メールアドレス
+      %td
+        buyer@gmail.com
+    %tr
+      %th
+        購入者パスワード
+      %td
+        1234567
+    %tr
+      %th
+        出品者メールアドレス
+      %td
+        seller@gmail.com
+    %tr
+      %th
+        出品者パスワード
+      %td
+        1234567
+    %tr
+      %th
+        githhub-URL
+      %td
+        =link_to 'https://github.com/yusukeminako/freemarket_sample_67a ', 'https://github.com/yusukeminako/freemarket_sample_67a '
 
-        
+.footer
+  .wrapper
+    %p
+      %small yusuke yamadda portfolio      
       
 
-  .footer
-    .ful
-      =link_to 'Top', '/', class: :li
-      =link_to 'Works', '/portfolios/works', class: :li
-      =link_to 'About', '/portfolios/about', class: :li
-      
+
 
